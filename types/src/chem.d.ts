@@ -1,7 +1,7 @@
 /**
  * Cheminformatics support
  */
-declare module "chem" {
+declare module "datagrok-ai/src/chem" {
     type SimilarityMetric = string;
     /**
      * Returns molecules similar to the reference one.
