@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/SoftwareCountry/datagrok-ai-tsd/issues"
   },
-  "homepage": "https://github.com/SoftwareCountry/datagrok-ai-tsd#readme"
+  "homepage": "https://github.com/SoftwareCountry/datagrok-ai-tsd#readme",
+  "dependencies": {
+    "jsdoc": "^3.6.4",
+    "tsd-jsdoc": "^2.5.0",
+    "typescript": "^3.9.6"
+  }
 }
