@@ -2,6 +2,7 @@ declare module "datagrok-ui/src/viewer" {
 
     import {VIEWER} from 'datagrok-ai/src/const';
     import {DataFrame} from "datagrok-ai/src/dataframe";
+    import {StreamSubscription} from "datagrok-ai/src/events";
     
     /**
      * Represents a {@link https://datagrok.ai/help/visualize/viewers | viewer}.
@@ -21,25 +22,37 @@ declare module "datagrok-ui/src/viewer" {
         /**
          * Creates a new viewer of the specified type.
          */
-        static fromType(viewerType: VIEWER, table: DataFrame, options?: any | null): Viewer;
+        static fromType(viewerType: VIEWER | string, table: DataFrame, options?: object | null): Viewer;
+        
+        static grid(t: DataFrame, options?: object | null): Viewer;
+
+        static histogram(t: DataFrame, options?: object | null): Viewer;
+
+        static barchart(t: DataFrame, options?: object | null): Viewer;
+
+        static boxPlot(t: DataFrame, options?: object | null): Viewer;
+
+        static filters(t: DataFrame, options?: object | null): Viewer;
+        
+        static scatterPlot(t: DataFrame, options?: object | null): Viewer;
 
         /**
          * Sets viewer options. See also {@link getOptions}
          Sample: https://public.datagrok.ai/js/samples/ui/viewers/scatter-plot
          */
-        setOptions(): void;
+        setOptions(map: object): void;
 
         /**
          * Gets viewer options. See also {@link getOptions}
          Sample: https://public.datagrok.ai/js/samples/ui/viewers/scatter-plot
          */
-        getOptions(): void;
+        getOptions(): object;
 
         /**
          * Closes and detaches the viewer.
          */
         close(): void;
-
+    
         /**
          * Visual root.
          */
