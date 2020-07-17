@@ -4,7 +4,8 @@
 
 declare module "datagrok-ai/src/chem" {
     
-    import { SIMILARITY_METRIC } from './const';
+    import { SIMILARITY_METRIC } from 'datagrok-ai/src/const';
+    import {BitSet, Column, DataFrame} from 'datagrok-ai/src/dataframe';
     
     /**
      * Returns molecules similar to the reference one.
