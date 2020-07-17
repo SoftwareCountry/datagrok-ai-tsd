@@ -70,6 +70,7 @@
     "types/src/chem.d.ts",
     "types/src/const.d.ts",
     "types/src/dataframe.d.ts",
+    "types/src/docking.d.ts",
     "types/src/events.d.ts",
     "tests.ts"
   ]
