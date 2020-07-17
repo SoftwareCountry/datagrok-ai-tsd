@@ -17,7 +17,10 @@
   },
   "homepage": "https://github.com/SoftwareCountry/datagrok-ai-tsd#readme",
   "dependencies": {
+    "@otris/jsdoc-tsd": "^2.0.0",
     "jsdoc": "^3.6.4",
+    "rxjs": "^6.6.0",
+    "rxjs-compat": "^6.6.0",
     "tsd-jsdoc": "^2.5.0",
     "typescript": "^3.9.6"
   }
