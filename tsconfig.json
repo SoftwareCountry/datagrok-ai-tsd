@@ -72,6 +72,7 @@
     "types/src/dataframe.d.ts",
     "types/src/docking.d.ts",
     "types/src/events.d.ts",
+    "types/src/grid.d.ts",
     "types/src/viewer.d.ts",
     "types/src/entities.d.ts",
     "tests.ts"
