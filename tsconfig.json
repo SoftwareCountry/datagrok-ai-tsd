@@ -75,6 +75,7 @@
     "types/src/grid.d.ts",
     "types/src/viewer.d.ts",
     "types/src/entities.d.ts",
+    "types/src/wrappers.d.ts",
     "tests.ts"
   ]
 }
