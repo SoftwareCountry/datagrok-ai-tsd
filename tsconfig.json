@@ -71,10 +71,11 @@
     "types/src/const.d.ts",
     "types/src/dataframe.d.ts",
     "types/src/docking.d.ts",
+    "types/src/entities.d.ts",
     "types/src/events.d.ts",
     "types/src/grid.d.ts",
+    "types/src/view.d.ts",
     "types/src/viewer.d.ts",
-    "types/src/entities.d.ts",
     "types/src/widgets.d.ts",
     "types/src/wrappers.d.ts",
     "tests.ts"
