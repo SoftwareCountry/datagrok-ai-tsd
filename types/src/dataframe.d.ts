@@ -4,7 +4,6 @@ declare module "datagrok-ai/src/dataframe" {
     import { COLUMN_TYPE, SEMTYPE } from 'datagrok-ai/src/const';
 
     import {AGG, TYPE} from 'datagrok-ai/src/const';
-    import {__obs} from "datagrok-ai/src/events";
 
     /**
      * DataFrame is a high-performance, easy to use tabular structure with
