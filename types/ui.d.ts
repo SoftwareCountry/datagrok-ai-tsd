@@ -5,7 +5,7 @@ declare module "datagrok-ai/ui" {
      * @module ui
      **/
 
-    import {Viewer} from "datagrok-ui/src/viewer";
+    import {Viewer} from "datagrok-ai/src/viewer";
     import {Accordion, Dialog, InputBase, TabControl, TreeViewNode, Widget} from "datagrok-ai/src/widgets";
     import {Cell, Row} from "datagrok-ai/src/dataframe";
     import {VirtualView} from "datagrok-ai/src/view";

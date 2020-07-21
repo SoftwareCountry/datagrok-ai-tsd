@@ -79,10 +79,12 @@
     "types/src/grid.d.ts",
     "types/src/ml.d.ts",
     "types/src/shell.d.ts",
+    "types/src/utils.d.ts",
     "types/src/view.d.ts",
     "types/src/viewer.d.ts",
     "types/src/widgets.d.ts",
     "types/src/wrappers.d.ts",
+    "types/dg.d.ts",
     "types/grok.d.ts",
     "types/ui.d.ts",
     "tests.ts"

@@ -2,7 +2,7 @@ declare module "datagrok-ai/src/view" {
     import {Menu, ToolboxPage, Widget} from "datagrok-ai/src/widgets";
     import {DataFrame} from "datagrok-ai/src/dataframe";
     import {Grid} from "datagrok-ai/src/grid";
-    import {Viewer} from "datagrok-ui/src/viewer";
+    import {Viewer} from "datagrok-ai/src/viewer";
     import {DockManager, DockNode} from "datagrok-ai/src/docking";
     import {VIEWER} from "datagrok-ai/src/const";
 

@@ -4,7 +4,7 @@ declare module "datagrok-ai/src/shell" {
     import {Project, User} from "datagrok-ai/src/entities";
     import {Menu, TabControl} from "datagrok-ai/src/widgets";
     import {DOCK_TYPE, DockManager} from "datagrok-ai/src/docking";
-    import {JsViewer} from "datagrok-ui/src/viewer";
+    import {JsViewer} from "datagrok-ai/src/viewer";
 
     /**
      * Grok visual shell, use it to get access to top-level views, tables, methods, etc.

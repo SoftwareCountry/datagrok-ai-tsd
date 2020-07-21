@@ -1,4 +1,4 @@
-declare module "datagrok-ui/src/viewer" {
+declare module "datagrok-ai/src/viewer" {
 
     import {VIEWER, VIEWER_PROPERTY_TYPE} from 'datagrok-ai/src/const';
     import {Column, DataFrame} from "datagrok-ai/src/dataframe";

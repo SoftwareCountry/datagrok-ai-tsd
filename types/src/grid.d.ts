@@ -1,7 +1,7 @@
 declare module "datagrok-ai/src/grid" {
 
     import {Cell, Column, Row} from "datagrok-ai/src/dataframe";
-    import {Viewer} from "datagrok-ui/src/viewer";
+    import {Viewer} from "datagrok-ai/src/viewer";
     import {Observable} from 'rxjs';
     import {EventData, StreamSubscription} from "datagrok-ai/src/events";
 
