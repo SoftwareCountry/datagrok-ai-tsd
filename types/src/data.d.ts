@@ -1,4 +1,4 @@
-declare module "datagrok-ai/types/data" {
+declare module "datagrok-ai/src/data" {
     
     import {DataFrame} from "datagrok-ai/src/dataframe";
     import {JOIN_TYPE, SYNC_TYPE} from "datagrok-ai/src/const";
