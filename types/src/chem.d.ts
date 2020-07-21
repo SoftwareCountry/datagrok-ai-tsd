@@ -16,7 +16,7 @@ declare module "datagrok-ai/src/chem" {
      * @param limit - Maximum number of results to return.
      * @param minScore - Minimum similarity score for a molecule to be included.
      */
-    export function similaritySearch(column: Column, molecule: string, metric: SIMILARITY_METRIC, limit: number, minScore: number): Promise<DataFrame>;
+    export function similaritySearch(column: Column, molecule: string, metric?: SIMILARITY_METRIC, limit?: number, minScore?: number): Promise<DataFrame>;
     /**
      * Returns the specified number of most diverse molecules in the column.
     See example: {@link https://datagrok.ai/help/domains/chem/diversity-search}
@@ -24,7 +24,7 @@ declare module "datagrok-ai/src/chem" {
      * @param metric - Metric to use.
      * @param limit - Number of molecules to return.
      */
-    export function diversitySearch(column: Column, metric: SIMILARITY_METRIC, limit: number): Promise<DataFrame>;
+    export function diversitySearch(column: Column, metric?: SIMILARITY_METRIC, limit?: number): Promise<DataFrame>;
     /**
      * Searches for a molecular pattern in a given column, returning a bitset with hits.
     See example: {@link substructure-search}
@@ -32,7 +32,7 @@ declare module "datagrok-ai/src/chem" {
      * @param pattern - Pattern, either SMARTS or SMILES.
      * @param isSmarts - Whether the pattern is SMARTS.
      */
-    export function substructureSearch(column: Column, pattern: string, isSmarts: boolean): Promise<BitSet>;
+    export function substructureSearch(column: Column, pattern: string, isSmarts?: boolean): Promise<BitSet>;
     /**
      * Performs R-group analysis.
     See example: {@link https://public.datagrok.ai/js/samples/domains/chem/descriptors}
@@ -64,7 +64,7 @@ declare module "datagrok-ai/src/chem" {
      * Renders a molecule to SVG
     https://public.datagrok.ai/js/samples/domains/chem/mol-rendering
      */
-    export function svgMol(smiles: string, width: number, height: number): HTMLDivElement;
+    export function svgMol(smiles: string, width?: number, height?: number): HTMLDivElement;
     /**
      * Molecule sketcher.
      * @param handler - Molecule on change handler, SMILES
