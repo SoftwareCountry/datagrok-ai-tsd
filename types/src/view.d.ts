@@ -396,7 +396,7 @@ declare module "datagrok-ai/src/view" {
     export class VirtualView {
         constructor(d: any)
 
-        static create(): VirtualView
+        static create(verticalScroll?: boolean, maxCols?: number): VirtualView
 
         get root(): HTMLElement
 

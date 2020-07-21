@@ -81,7 +81,7 @@ declare module "datagrok-ai/src/widgets" {
 
         getPane(name: string): TabPane
 
-        addPane(name: string, getContent: Function, icon? : any | null): void
+        addPane(name: string, getContent: Function, icon? : any | null): TabPane
         
         clear(): void
 
@@ -166,20 +166,20 @@ declare module "datagrok-ai/src/widgets" {
 
         /** Adds a menu group with the specified text.
          * @param {string} text*/
-        group(text: string): void
+        group(text: string): Menu
 
         //TODO: string or?
-        item(item: string, onClick: Function): void
+        item(item: string, onClick: Function): Menu
 
-        items(items: string[], onClick: Function): void
+        items(items: string[], onClick: Function): Menu
 
         /** Adds a separator line.
          *  @returns {Menu} */
-        separator(): void
+        separator(): Menu
 
         /** Shows the menu.
          * @returns {Menu} */
-        show(): void
+        show(): Menu
     }
 
 
