@@ -83,6 +83,7 @@
     "types/src/viewer.d.ts",
     "types/src/widgets.d.ts",
     "types/src/wrappers.d.ts",
+    "types/ui.d.ts",
     "tests.ts"
   ]
 }
