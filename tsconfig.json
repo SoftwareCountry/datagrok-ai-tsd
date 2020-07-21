@@ -74,6 +74,7 @@
     "types/src/docking.d.ts",
     "types/src/entities.d.ts",
     "types/src/events.d.ts",
+    "types/src/functions.d.ts",
     "types/src/grid.d.ts",
     "types/src/view.d.ts",
     "types/src/viewer.d.ts",
