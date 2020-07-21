@@ -77,6 +77,7 @@
     "types/src/events.d.ts",
     "types/src/functions.d.ts",
     "types/src/grid.d.ts",
+    "types/src/ml.d.ts",
     "types/src/view.d.ts",
     "types/src/viewer.d.ts",
     "types/src/widgets.d.ts",
