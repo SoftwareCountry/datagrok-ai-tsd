@@ -1,4 +1,4 @@
-declare module "datagrok-ai/src/dapi" {
+declare module "datagrok-api/src/dapi" {
    import {
        Credentials,
        DataConnection,
@@ -9,9 +9,9 @@ declare module "datagrok-ai/src/dapi" {
     Notebook,
     Package, Project, Script, ScriptEnvironment,
     TableInfo, User
-} from "datagrok-ai/src/entities";
-    import {ViewLayout} from "datagrok-ai/src/view";
-    import {DataFrame} from "datagrok-ai/src/dataframe";
+} from "datagrok-api/src/entities";
+    import {ViewLayout} from "datagrok-api/src/view";
+    import {DataFrame} from "datagrok-api/src/dataframe";
 
     /**
      * Exposes Datagrok's server-side functionality.

@@ -1,9 +1,9 @@
-declare module "datagrok-ai/src/viewer" {
+declare module "datagrok-api/src/viewer" {
 
-    import {VIEWER, VIEWER_PROPERTY_TYPE} from 'datagrok-ai/src/const';
-    import {Column, DataFrame} from "datagrok-ai/src/dataframe";
-    import {StreamSubscription} from "datagrok-ai/src/events";
-    import {DateTime, Property} from "datagrok-ai/src/entities";
+    import {VIEWER, VIEWER_PROPERTY_TYPE} from 'datagrok-api/src/const';
+    import {Column, DataFrame} from "datagrok-api/src/dataframe";
+    import {StreamSubscription} from "datagrok-api/src/events";
+    import {DateTime, Property} from "datagrok-api/src/entities";
     
     /**
      * Represents a {@link https://datagrok.ai/help/visualize/viewers | viewer}.
@@ -62,7 +62,7 @@ declare module "datagrok-ai/src/viewer" {
 
     /**
      * Subclass JsViewer to implement a DataFrame-bound Datagrok viewer in JavaScript.
-     See an example on github: {@link https://github.com/datagrok-ai/public/tree/master/packages/Leaflet}
+     See an example on github: {@link https://github.com/datagrok-api/public/tree/master/packages/Leaflet}
      */
     export class JsViewer {
         root: HTMLElement;

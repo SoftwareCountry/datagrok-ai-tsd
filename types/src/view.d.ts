@@ -1,10 +1,10 @@
-declare module "datagrok-ai/src/view" {
-    import {Menu, ToolboxPage, Widget} from "datagrok-ai/src/widgets";
-    import {DataFrame} from "datagrok-ai/src/dataframe";
-    import {Grid} from "datagrok-ai/src/grid";
-    import {Viewer} from "datagrok-ai/src/viewer";
-    import {DockManager, DockNode} from "datagrok-ai/src/docking";
-    import {VIEWER} from "datagrok-ai/src/const";
+declare module "datagrok-api/src/view" {
+    import {Menu, ToolboxPage, Widget} from "datagrok-api/src/widgets";
+    import {DataFrame} from "datagrok-api/src/dataframe";
+    import {Grid} from "datagrok-api/src/grid";
+    import {Viewer} from "datagrok-api/src/viewer";
+    import {DockManager, DockNode} from "datagrok-api/src/docking";
+    import {VIEWER} from "datagrok-api/src/const";
 
     /**
      * Subclass ViewBase to implement a Datagrok view in JavaScript.

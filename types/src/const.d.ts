@@ -1,4 +1,4 @@
-﻿declare module 'datagrok-ai/src/const' {
+﻿declare module 'datagrok-api/src/const' {
 
     export const enum AGG {
         KEY = "key",      // Special case: to be used in the 'group by' statement.

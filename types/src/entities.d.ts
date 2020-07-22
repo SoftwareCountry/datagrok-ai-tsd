@@ -1,5 +1,5 @@
-declare module "datagrok-ai/src/entities" {
-    import {SEMTYPE, TYPE} from "datagrok-ai/src/const";
+declare module "datagrok-api/src/entities" {
+    import {SEMTYPE, TYPE} from "datagrok-api/src/const";
 
 
     /** @class

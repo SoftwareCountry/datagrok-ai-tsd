@@ -2,10 +2,10 @@
  * Cheminformatics support
  */
 
-declare module "datagrok-ai/src/chem" {
+declare module "datagrok-api/src/chem" {
     
-    import { SIMILARITY_METRIC } from 'datagrok-ai/src/const';
-    import {BitSet, Column, DataFrame} from 'datagrok-ai/src/dataframe';
+    import { SIMILARITY_METRIC } from 'datagrok-api/src/const';
+    import {BitSet, Column, DataFrame} from 'datagrok-api/src/dataframe';
     
     /**
      * Returns molecules similar to the reference one.

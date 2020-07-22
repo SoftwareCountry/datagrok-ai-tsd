@@ -1,14 +1,14 @@
-declare module "datagrok-ai/ui" {
+declare module "datagrok-api/ui" {
 
     /**
      * Routines for building UI
      * @module ui
      **/
 
-    import {Viewer} from "datagrok-ai/src/viewer";
-    import {Accordion, Dialog, InputBase, TabControl, TreeViewNode, Widget} from "datagrok-ai/src/widgets";
-    import {Cell, Row} from "datagrok-ai/src/dataframe";
-    import {VirtualView} from "datagrok-ai/src/view";
+    import {Viewer} from "datagrok-api/src/viewer";
+    import {Accordion, Dialog, InputBase, TabControl, TreeViewNode, Widget} from "datagrok-api/src/widgets";
+    import {Cell, Row} from "datagrok-api/src/dataframe";
+    import {VirtualView} from "datagrok-api/src/view";
 
     /**
      * Creates an instance of the element for the specified tag, and optionally assigns it a CSS class.

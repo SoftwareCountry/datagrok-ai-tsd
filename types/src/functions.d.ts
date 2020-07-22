@@ -1,5 +1,5 @@
-declare module "datagrok-ai/src/functions" {
-    import {Script} from "datagrok-ai/src/entities";
+declare module "datagrok-api/src/functions" {
+    import {Script} from "datagrok-api/src/entities";
 
     /** Grok functions */
     export class Functions {

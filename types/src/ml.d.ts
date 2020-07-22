@@ -1,11 +1,11 @@
-declare module "datagrok-ai/src/ml" {
+declare module "datagrok-api/src/ml" {
 
     /**
      * Machine learning-related routines
      * @module ml
      * */
     
-    import {DataFrame} from "datagrok-ai/src/dataframe";
+    import {DataFrame} from "datagrok-api/src/dataframe";
 
     /** Applies predictive model to the specified table.
      * See example: {@link https://public.datagrok.ai/js/samples/domains/data-science/predictive-model}
@@ -16,7 +16,7 @@ declare module "datagrok-ai/src/ml" {
      * @param {boolean} showProgress - Maximum number of results to return.
      * @returns {Promise<DataFrame>}
      * */
-    export function applyModel(nam: string, table: DataFrame, columnNamesMap?: Object , showProgress?: boolean): Promise<DataFrame>
+    export function applyModel(name: string, table: DataFrame, columnNamesMap?: Object , showProgress?: boolean): Promise<DataFrame>
 
     /** Imputes missing values.
      * See example: {@link https://public.datagrok.ai/js/samples/domains/data-science/missing-values-imputation}

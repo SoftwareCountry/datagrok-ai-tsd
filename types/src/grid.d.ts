@@ -1,9 +1,9 @@
-declare module "datagrok-ai/src/grid" {
+declare module "datagrok-api/src/grid" {
 
-    import {Cell, Column, Row} from "datagrok-ai/src/dataframe";
-    import {Viewer} from "datagrok-ai/src/viewer";
+    import {Cell, Column, Row} from "datagrok-api/src/dataframe";
+    import {Viewer} from "datagrok-api/src/viewer";
     import {Observable} from 'rxjs';
-    import {EventData, StreamSubscription} from "datagrok-ai/src/events";
+    import {EventData, StreamSubscription} from "datagrok-api/src/events";
 
     /** Represents a grid cell */
     export class GridCell {

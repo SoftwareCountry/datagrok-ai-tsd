@@ -1,4 +1,4 @@
-﻿declare module "datagrok-ai/src/events" {
+﻿declare module "datagrok-api/src/events" {
 
     import {Observable} from "rxjs";
 

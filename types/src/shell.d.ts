@@ -1,10 +1,10 @@
-declare module "datagrok-ai/src/shell" {
-    import {DataFrame} from "datagrok-ai/src/dataframe";
-    import {TableView, View, ViewBase} from "datagrok-ai/src/view";
-    import {Project, User} from "datagrok-ai/src/entities";
-    import {Menu, TabControl} from "datagrok-ai/src/widgets";
-    import {DOCK_TYPE, DockManager} from "datagrok-ai/src/docking";
-    import {JsViewer} from "datagrok-ai/src/viewer";
+declare module "datagrok-api/src/shell" {
+    import {DataFrame} from "datagrok-api/src/dataframe";
+    import {TableView, View, ViewBase} from "datagrok-api/src/view";
+    import {Project, User} from "datagrok-api/src/entities";
+    import {Menu, TabControl} from "datagrok-api/src/widgets";
+    import {DOCK_TYPE, DockManager} from "datagrok-api/src/docking";
+    import {JsViewer} from "datagrok-api/src/viewer";
 
     /**
      * Grok visual shell, use it to get access to top-level views, tables, methods, etc.

@@ -6,14 +6,14 @@ import {Events} from "./src/events";
 import {Settings, Shell} from "./src/shell";
 import {Data} from "./src/data";*/
 
-declare module "datagrok-ai/grok" {
-    import * as _chem from 'datagrok-ai/src/chem';
-    import * as _ml from 'datagrok-ai/src/ml';
-    import {Dapi} from "datagrok-ai/src/dapi";
-    import {Functions} from "datagrok-ai/src/functions";
-    import {Events} from "datagrok-ai/src/events";
-    import {Settings, Shell} from "datagrok-ai/src/shell";
-    import {Data} from "datagrok-ai/src/data";
+declare module "datagrok-api/grok" {
+    import * as _chem from 'datagrok-api/src/chem';
+    import * as _ml from 'datagrok-api/src/ml';
+    import {Dapi} from "datagrok-api/src/dapi";
+    import {Functions} from "datagrok-api/src/functions";
+    import {Events} from "datagrok-api/src/events";
+    import {Settings, Shell} from "datagrok-api/src/shell";
+    import {Data} from "datagrok-api/src/data";
     
     export let functions: Functions;
     export let events: Events;

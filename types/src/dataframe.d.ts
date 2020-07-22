@@ -1,9 +1,9 @@
-declare module "datagrok-ai/src/dataframe" {
+declare module "datagrok-api/src/dataframe" {
 
     import { Observable } from 'rxjs';
-    import { COLUMN_TYPE, SEMTYPE } from 'datagrok-ai/src/const';
+    import { COLUMN_TYPE, SEMTYPE } from 'datagrok-api/src/const';
 
-    import {AGG, TYPE} from 'datagrok-ai/src/const';
+    import {AGG, TYPE} from 'datagrok-api/src/const';
 
     /**
      * DataFrame is a high-performance, easy to use tabular structure with

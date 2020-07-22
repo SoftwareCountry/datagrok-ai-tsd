@@ -1,8 +1,8 @@
-declare module "datagrok-ai/src/widgets" {
+declare module "datagrok-api/src/widgets" {
 
     import {Observable} from "rxjs";
-    import {StreamSubscription} from "datagrok-ai/src/events";
-    import {Property} from "datagrok-ai/src/entities";
+    import {StreamSubscription} from "datagrok-api/src/events";
+    import {Property} from "datagrok-api/src/entities";
 
     /** Base class for controls that have a visual root and a set of properties. */
     export class Widget {

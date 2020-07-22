@@ -1,4 +1,4 @@
-declare module "datagrok-ai/src/docking" {
+declare module "datagrok-api/src/docking" {
 
     /**
      * @typedef {string} DockType

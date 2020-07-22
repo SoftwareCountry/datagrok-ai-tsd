@@ -1,8 +1,8 @@
-declare module "datagrok-ai/src/data" {
+declare module "datagrok-api/src/data" {
     
-    import {DataFrame} from "datagrok-ai/src/dataframe";
-    import {JOIN_TYPE, SYNC_TYPE} from "datagrok-ai/src/const";
-    import {FuncCall} from "datagrok-ai/src/functions";
+    import {DataFrame} from "datagrok-api/src/dataframe";
+    import {JOIN_TYPE, SYNC_TYPE} from "datagrok-api/src/const";
+    import {FuncCall} from "datagrok-api/src/functions";
     
     type DemoDatasetName = 'wells' | 'demog' | 'biosensor' | 'random walk';
 

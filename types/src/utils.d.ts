@@ -1,4 +1,4 @@
-declare module "datagrok-ai/src/utils" {
+declare module "datagrok-api/src/utils" {
 
     export function range(length: number): Generator<number, void>
 
