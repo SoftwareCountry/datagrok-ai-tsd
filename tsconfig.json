@@ -87,6 +87,7 @@
     "types/dg.d.ts",
     "types/grok.d.ts",
     "types/ui.d.ts",
+    "types/index.d.ts",
     "tests.ts"
   ]
 }
